@@ -12,4 +12,4 @@ Scenario: Compute parking slots to reserve for visiting specialists
 
   Given: There are empty parking spaces and Server is functional
   When: When I press "Compute reserved parking spot"
-  Then: It should give all the empty parking spot available and reserve them for visiting facility
+  Then: It should give all the empty parking spot available 
