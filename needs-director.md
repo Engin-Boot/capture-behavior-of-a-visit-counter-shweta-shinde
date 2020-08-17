@@ -2,7 +2,7 @@
 
 Scenario: Show patient visits during working days and holidays
 
-  Given:The server is funtional
+  Given:The server is functional
   When: I press "Show patients visits on working day" button
   Then: It should display all the details about patients visits from Monday to Saturday
   When: I press "Show patients visits on holiday day" button
