@@ -9,5 +9,5 @@ Scenario: Report visitor trends during a week of operation
 Scenario: Alert when seating capacity is full
 
   Given: The server is functional
-  When: all the seats are occupied
+  When: the seating capacity is full
   Then: give an Alert message "Seating capacity full"
