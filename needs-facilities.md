@@ -11,4 +11,3 @@ Scenario: Alert when seating capacity is full
   Given: The server is functional
   When: The all the seats are occupied
   Then: give an Alert message "Seating capacity full"
-  
